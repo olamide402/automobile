@@ -166,3 +166,16 @@ h1{
     top:-1100px ;
     left: 790px;
  }
+
+
+
+
+
+
+ @media(max-width:420px){
+
+    .container{
+        max-width:420px;
+        background:white;
+    }
+ }
