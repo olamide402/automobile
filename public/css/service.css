@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    background: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar-header{ 
+    min-width: 100%;
+     height: 40px;
+     display: flex;
+     padding: 1em;
+     background:black;
+     position: fixed;
+     z-index: 3;    
+     box-shadow: 0.5px 0.5px 0.5px silver;
+}
+
+.ae{
+    color: red;
+}
+
+h1{
+    color: silver;
+    font-size: 18px;
+    margin: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+    left: 500px;  
+    text-align: center;
+}
+
+.navbar-header .circle{
+    width: 80px;
+    height: 80px;
+    background-image: url(../image/carlogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+
+
+.navbar-header ul{
+    display: flex;
+     justify-content: flex-end;
+     list-style: none;
+     position: relative;    
+ }
+ .navbar-header ul a{
+    text-decoration:none ;
+    color: silver;
+    font-size: 18px;
+    margin: 25px;
+    font-family: 'DM Sans'sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 630px;
+    transition: 0.3s ease-in;
+    animation: slide-in 1.5s ease-out;
+}
+@keyframes slide-in{
+   from{
+       transform: translateX(-100vw);
+       opacity: 0;
+   }
+   to{
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+ .navbar-header ul a:hover{
+    border-bottom: 2px solid red;
+}
+.servicepage h1{
+    color: red;
+    font-size: 45px;
+    /* width: 200px; */
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+
+h2{
+    color: silver;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    left: 220px;   
+    font-weight: bold;
+}
+.circle1{
+    width: 80px;
+    height: 80px;
+    background: red;
+    position: relative;
+    top:-30px;
+    border: none;
+    border-radius: 10px;
+    left: 180px;
+
+}
+
+
+p{
+    color: silver;
+    font-size: 15px;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    top: 80px;
+}
+
+
+
+h3{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    left: 200px;   
+    font-weight: bold;
+}
+.circle2{
+    width: 80px;
+    height: 80px;
+    background: silver;
+    position: relative;
+    top:-30px;
+    border: none;
+    border-radius: 10px;
+    left: 200px;
+
+}
+
+
+.p{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    width: 380px;
+    left: 10px;
+    position: relative;
+    top: 80px;
+}
+
+h4{
+    color: silver;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    left: 200px;   
+    font-weight: bold;
+}
+.circle3{
+    width: 80px;
+    height: 80px;
+    background: red;
+    position: relative;
+    top:-30px;
+    border: none;
+    border-radius: 10px;
+    left: 200px;
+
+}
+
+
+.p1{
+    color: silver;
+    font-size: 15px;
+    text-align: center;
+    width: 380px;
+    left: 10px;
+    position: relative;
+    top: 80px;
+}
+
+
+h5{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+    left: 1000px;   
+    font-weight: bold;
+}
+.circle4{
+    width: 80px;
+    height: 80px;
+    background: silver;
+    position: relative;
+    top:-25px;
+    border: none;
+    border-radius: 10px;
+    left: -100px;
+
+}
+
+
+.p2{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    width: 380px;
+    left: 980px;
+    position: relative;
+    top: -320px;
+}
+
+h6{
+    color: silver;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+    left: 1000px;   
+    font-weight: bold;
+}
+.circle5{
+    width: 80px;
+    height: 80px;
+    background: red;
+    position: relative;
+    top:-25px;
+    border: none;
+    border-radius: 10px;
+    left: -100px;
+
+}
+
+
+.p3{
+    color: silver;
+    font-size: 15px;
+    text-align: center;
+    width: 380px;
+    left: 980px;
+    position: relative;
+    top: -320px;
+}
+
+
+
+
+.h1{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    top: -250px;
+    left: 1000px;   
+    font-weight: bold;
+}
+.circle6{
+    width: 80px;
+    height: 80px;
+    background: silver;
+    position: relative;
+    top:-25px;
+    border: none;
+    border-radius: 10px;
+    left: -100px;
+
+}
+
+
+.p4{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    width: 380px;
+    left: 980px;
+    position: relative;
+    top: -320px;
+}
+
+/* 
+.h2{
+    width: 80px;
+    height: 80px;
+    background: silver;
+    position: relative;
+    top:-25px;
+    border: none;
+    border-radius: 10px;
+    left: -100px; 
+} */

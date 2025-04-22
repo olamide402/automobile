@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    background: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar-header{ 
+    min-width: 100%;
+     height: 40px;
+     display: flex;
+     padding: 1em;
+     background:black;
+     position: fixed;
+     z-index: 3;    
+     box-shadow: 0.5px 0.5px 0.5px silver;
+}
+
+.ae{
+    color: red;
+}
+
+h1{
+    color: silver;
+    font-size: 18px;
+    margin: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+    left: 500px;  
+    text-align: center;
+}
+
+.navbar-header .circle{
+    width: 80px;
+    height: 80px;
+    background-image: url(../image/carlogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+
+
+.navbar-header ul{
+    display: flex;
+     justify-content: flex-end;
+     list-style: none;
+     position: relative;    
+ }
+ .navbar-header ul a{
+    text-decoration:none ;
+    color: silver;
+    font-size: 18px;
+    margin: 25px;
+    font-family: 'DM Sans'sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 630px;
+    transition: 0.3s ease-in;
+    animation: slide-in 1.5s ease-out;
+}
+@keyframes slide-in{
+   from{
+       transform: translateX(-100vw);
+       opacity: 0;
+   }
+   to{
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+ .navbar-header ul a:hover{
+    border-bottom: 2px solid red;
+}
+
+.homepage{
+    background: black;
+    min-width: 100%;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.homepage h1{
+    position: relative;
+    top: 100px;
+    color:red;
+    font-family: 'Thin Text', sans-serif;
+    font-size: 50px; 
+    left: -350px; 
+    /* animation: slide-in 1.5s ease-out; */
+ }
+
+ .homepage h2{
+    position: relative;
+    top: 80px;
+    color:silver;
+    font-family: 'Thin Text', sans-serif;
+    font-size: 30px; 
+    left: 80px; 
+ }
+
+ .homepage p{
+    width: 550px;
+    font-size: 15px;
+    color:silver;;
+    position: relative;
+    top: 100px;
+    left: 60px; 
+ }
+
+ .car1{
+    width: 250px;
+    height: 250px;
+    background-image: url(../image/carlogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+    left: 200px;
+ }
+ .line{
+    width: 10px;
+    height: 600px;
+    
+    position: relative;
+    top: -380px;
+    left: 700px;
+    border-radius: 50%;
+ }
+
+ .line1{
+    width: 10px;
+    height: 600px;
+    position: relative;
+    top: -600px;
+    left: 770px;
+    border-radius: 50%;
+ }
+
+ .box{
+    width: 600px;
+    height: 500px;
+    background: transparent;
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../image/bg2.jpg);
+    /* box-shadow: 2px 2px 2px silver; */
+    /* border-radius: 50%; */
+    position: relative;
+    top:-1100px ;
+    left: 790px;
+ }
